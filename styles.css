@@ -16,15 +16,27 @@ main{
     border-width: 10px;
     border-bottom-style:solid;
     border-bottom-width:1px;
-    border-top-style:solid;
-    border-top-width:1px;
+    /* border-top-style:solid;
+    border-top-width:1px; */
     padding-bottom:20px;
+    margin-top:-20px;
 }
 header{
     text-align:center;
-    margin-left:150px;
-    margin-right:150px;
-    margin-top:0px;
+    /* margin-left:150px;
+    margin-right:150px; */
+    margin-top:-30px;
+    background-color: white;
+    max-width:900px;
+    margin-left:0px;
+    border-left-style:solid;
+    border-right-style:solid;
+    border-color: rgb(219, 243, 243);
+    border-width: 10px;
+    border-top-style:solid;
+    border-top-width:1px;
+    padding-left:130px;
+    padding-right:130px;
 }
 header p{
 
@@ -64,7 +76,7 @@ section{
     text-align:center;
 }
 .funParagraph{
-    color:green;   
+    color:green;
 }
 #mainHeading{
     color:red;
